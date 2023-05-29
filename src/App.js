@@ -1,9 +1,11 @@
+import { Container, Grid } from '@mui/material';
 import './App.css';
+import PhoneSignup from './Components/Login/PhoneSignup';
 function App() {
   return (
-    <div >
-     ghjklk
-    </div>
+    <Container   bgcolor={"blue"}>
+    hgfdrtfyghk
+    </Container  >
   );
 }
 
