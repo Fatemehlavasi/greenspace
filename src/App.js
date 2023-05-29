@@ -1,11 +1,11 @@
-import { Container, Grid } from '@mui/material';
+import { Container } from '@mui/system';
+import PhoneSignup from "./Components/Login/PhoneSignup"
 import './App.css';
-import PhoneSignup from './Components/Login/PhoneSignup';
 function App() {
   return (
-    <Container   bgcolor={"blue"}>
-    hgfdrtfyghk
-    </Container  >
+    <Container >
+    <PhoneSignup/>
+    </Container>
   );
 }
 
